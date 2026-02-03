@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+.env
+config_local.py
+
+logs/*.log
+reports/*.txt
+
+.vscode/
+.idea/
