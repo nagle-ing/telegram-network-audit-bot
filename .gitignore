@@ -1,11 +1,19 @@
+# Python
 __pycache__/
 *.pyc
 
+# Secrets
 .env
 config_local.py
 
-logs/*.log
-reports/*.txt
+# Logs
+logs/*
+!logs/.gitkeep
 
+# Reports
+reports/*
+!reports/.gitkeep
+
+# Editors
 .vscode/
 .idea/
