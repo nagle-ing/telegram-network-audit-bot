@@ -1,4 +1,8 @@
 import os
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # carga variables desde .env
 
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 if not TOKEN:
